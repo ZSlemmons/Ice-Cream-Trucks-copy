@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Story template</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-rendering: optimizeLegibility;
+        }
+
+        .content {
+            max-width: 640px;
+            margin: auto;
+        }
+
+        .header {
+            padding: 3em 0;
+        }
+
+        a {
+            color: #f05349;
+        }
+
+        .footer {
+            background: #f4f4f4;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        figure {
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        figcaption {
+            font-size: 0.8em;
+            text-align: center;
+            margin-top: 0.5em;
+            color: #666;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+        }
+
+        iframe,
+        img,
+        video {
+            max-width: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        ul {
+            margin: 0;
+            padding-bottom: 1em;
+            line-height: 1.6;
+        }
+
+        iframe {
+            padding-bottom: 1.2em;
+        }
+
+        code {
+            font-family: 'Courier New', monospace;
+            background: #fffbaf;
+            font-size: 0.85em;
+        }
+
+        .full-width figure {
+            text-align: center;
+        }
+
+        /* margin on mobile */
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            } 
+        }
+        
+        .attribution {
+            font-size: x-small;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <h1>Does New York City Hate Icecream?</h1>
+            <p class="subhead">New Yorkers vs. Icecream Trucks: A battle for NYC's streets</p>
+        </div>
+        <div class="byline">
+            <p>By Zoe Slemmons</a></p>
+        </div>
+        <p>Here in New York City, ice cream is a serious business. 
+            The frozen confection’s history in the city is nearly as old as the nation itself, 
+            dating back to Philip Lenzi’s sweet shop, which began advertising ice cream in 1777. </p>
+        <p>But that long history has often been marked by controversy, 
+            often resulting in regualtions. A long forgotten state law makes it 
+            illegal to carry ice cream in your back pocket on a Sunday. 
+            Another bans eating ice cream at bus stops.</a></p>
+        <p>More recently, the ice cream truck industry has been at the center 
+            of multiple scandals. In 2013, a years-long turf war erupted between 
+            top vendors, Mister Softee and New York Ice Cream. In 2019, the city 
+            launched an initiative aimed at cracking down on ice cream truck 
+            owners’ use of shell companies to avoid paying more than $4.5 million
+             in traffic violation fines. The program, aptly dubbed 
+             “Operation Meltdown,” resulted in the seizure of 46 ice cream trucks. </p>
+        <p>But perhaps the most enduring conflict in ice cream’s storied history
+             has been the battle between every-day New Yorkers and the ice cream truck jingle. </p>
+        
+        <div>
+            <audio controls>
+                 <source src="mr_softee_ice_cream.mp3" type="audio/mpeg">
+                 Your browser does not support the audio element.
+            </audio>
+        </div>
+        <figure>
+            <img
+                src="mister_softee_truck.jpg">
+            <figcaption class = 'attribution'><a href="https://commons.wikimedia.org/wiki/File:Sundaescones_Shakes,_Ice_cream_truck,_2013-05-01.jpg">altiemae</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons</figcaption>
+            <figcaption>Mister Softee is on of the most iconic ice cream vendors in NYC</figcaption>
+        </figure>
+
+        <p>According to records from NYC Open Data, city residents have lodged 
+            more than 16,000 noise complaints against ice cream trucks in the 
+            past 10 years, with an average of 1,500 complaints per year. 311 calls 
+            peaked in 2020 when the COVID-19 pandemic sent the city into lockdown, 
+            forcing many New Yorkers to work from home.</p>
+
+        
+         <iframe title="Ice Cream Truck Noise Complaints by year" aria-label="bar graph" id="datawrapper-map-boros"
+            src="https://datawrapper.dwcdn.net/Xrc39/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>   
+
+        <p>So where do all these ice cream hating New Yorkers live? An analysis 
+            by borough, identified Manhattan as the epicenter for the highest number 
+            of complaints, closely followed by Brooklyn.</p>
+        
+         <iframe title="Ice Cream Truck Noise Complaints" aria-label="map" id="datawrapper-map-boros"
+            src="https://datawrapper.dwcdn.net/Jrh5t/1/" scrolling="no" frameborder="0"
+            style="width: 0; min-width: 100% !important; border: none;" height="757" data-external="1"></iframe>
+        <script type="text/javascript">!function () { "use strict"; window.addEventListener("message", (function (a) { if (void 0 !== a.data["datawrapper-height"]) { var e = document.querySelectorAll("iframe"); for (var t in a.data["datawrapper-height"]) for (var r = 0; r < e.length; r++)if (e[r].contentWindow === a.source) { var i = a.data["datawrapper-height"][t] + "px"; e[r].style.height = i } } })) }();
+        </script>
+
+        <p>While the prevalence of noise complaints in densely-populated Manhattan may
+             not come as a shock, many New Yorkers may be surprised by the neighborhood 
+             breakdown, which shows Washington Heights as the area with the highest 
+             number of calls to 311.</p>
+
+        <p>A working class neighborhood in Upper Manhattan, Washington Heights is 
+            bounded by 155th Street to the south, Dyckman Street to the north, and 
+            the Hudson and Harlem Rivers to the west and east respectively.</p>    
+            
+        <p>Historically a majority Latino community, Washington Heights is better 
+            known for its piraguas – traditional Puerto Rican shaved ice treat 
+            (featured in Lin Manuel Miranda’s musical and 2021 film, In the Heights)
+             – than for its ice cream. Nevertheless, the neighborhood has lodged more
+             than 900 ice cream truck noise complaints since 2015. The area far 
+             outpaced the next highest Manhattan neighborhoods, Midtown and nearby
+              Harlem, which both had a little over 500 calls. </p>  
+              
+         <figure>
+            <img
+                src="Washington_Heights_complaints.png">
+            <figcaption>Locations of ice cream truck noise complaints in Washington Heights</figcaption>
+        </figure>
+
+        <p>Despite the many complaints, records show that only 13 of the Washington
+             Heights calls resulted in a summons – only 1.4%.</p>
+        
+        <p>Citywide, the rate of summons is even lower. In the past decade, only 122 
+            summons have been issued for jingle infractions. That’s less than 1% of 
+            the total complaints. </p>
+    
+    <div class="content">
+        <p>Despite the many complaints, records show that only 13 of the Washington 
+            Heights calls resulted in a summons – only 1.4%. .</p>
+        <p>Citywide, the rate of summons is even lower. In the past decade, 
+            only 122 summons have been issued for jingle infractions. 
+            That’s less than 1% of the total complaints.</p>
+        <p>It’s a strikingly low rate of return compared with other noise 
+            complaints investigated by the city’s Department of Environmental 
+            Protection. Data from the same time period showed that 
+            construction-related noise complaints, which account for more than 
+            half of the complaints received by DEP, resulted in summons about 2% of
+             the time. While still low, that is more than twice the citywide rate 
+             for ice cream trucks. </p>   
+        <p>Due to their mobile nature, ice cream trucks may be particularly difficult to 
+            catch in the act of violating noise oridinances. And so, for those tormented
+            by their persistent jingles, the battle against this elusive foe continues. /p>
+    
+    </div>
+    <div class="footer">
+        <div class="content">
+            <p>This analysis was done as part of a class project for the Lede Data Journalism Program, 2025.</p>
+        </div>
+    </div>
+</body>
+
+</html>
